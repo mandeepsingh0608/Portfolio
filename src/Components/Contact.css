@@ -1,0 +1,147 @@
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+    padding: 25px;
+   
+    /* border: 2px solid black; */
+    margin: 5vh 370px;
+    
+    width: fit-content;
+    height: fit-content;
+    font-weight: bolder; 
+    overflow:inherit;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    background-color: gainsboro;
+}
+
+
+
+.gridContainer{
+    display: flex;
+    align-items:stretch;
+    flex-direction: column;
+    margin-left: 72px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    /* justify-content:space-between; */
+    padding: 5px;
+    padding: 3px;
+   
+}
+
+textarea{
+    padding: 10px;
+}
+
+.inputBox{
+    display: block;
+    width: 600px;
+    padding: 5px;
+}
+
+.sendButton{
+   display: flex;
+   justify-content: center;
+    
+    margin-top: 5px;
+}
+.sendButton button{
+    margin-right: 10px;
+    width:120px;
+    height: 40px;
+    background-color: rgb(26, 114, 4);
+    color: white;
+    border-radius: 10px;
+}
+
+@media all and (max-width: 968px) {
+    .contactContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        /* border: 2px solid black; */
+        margin: 5vh 330px;
+        width: fit-content;
+        height: fit-content;
+        font-weight: bolder; 
+        overflow:inherit;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        background-color: gainsboro;
+    }
+
+
+  
+
+    .gridContainer{
+        display: flex;
+        align-items:stretch;
+        flex-direction: column;
+        margin-left: 72px;
+       
+        font-weight: bolder;
+    }
+
+    
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding: 5px;
+    padding: 3px;
+   
+}
+
+textarea{
+    padding: 10px;
+}
+
+.inputBox{
+    width: 40vw;
+}
+
+.sendButton{
+   display: flex;
+   justify-content: center;
+    
+    margin-top: 5px;
+}
+.sendButton button{
+    margin-right: 10px;
+    width:120px;
+    height: 40px;
+    background-color: rgb(26, 114, 4);
+    color: white;
+    border-radius: 10px;
+}
+
+    
+}
+
+
+
+
+@media all and (max-width: 935px){
+    .contactContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        /* border: 2px solid black; */
+        margin: 5vh 280px;
+        width: fit-content;
+        height: fit-content;
+        font-weight: bolder; 
+        overflow:inherit;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        background-color: gainsboro;
+    }
+}
+

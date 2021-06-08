@@ -1,0 +1,183 @@
+.resumeContainer{
+   height: fit-content;
+    width: 70vw;
+    /* border: 2px solid green; */
+    background-color: gainsboro;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    margin: 34px 329px;
+    padding: 15px 10px;
+
+}
+header{
+    text-align: center;
+}
+.mylinks{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin: 0px 5px;
+}
+.hrLine{
+    margin-top: 0px;
+}
+.download-Print{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+#download{
+    margin-right: 10px;
+    width:120px;
+    height: 40px;
+    background-color: rgb(26, 114, 4);
+    color: white;
+    border-radius: 10px;
+ 
+}
+#print{
+    margin-left: 10px;
+    margin-right: 15px;
+    width:80px;
+    background-color: rgb(202, 22, 112);
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+}
+
+@media all and (max-width: 935px) {
+    .resumeContainer{
+        height: fit-content;
+         width: 65vw;
+         /* border: 2px solid green; */
+         background-color: gainsboro;
+         box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+         margin: 30px 280px;
+         padding: 15px 10px;
+     
+     }
+     header{
+         text-align: center;
+     }
+     .mylinks{
+         display: flex;
+         flex-direction:row;
+         justify-content: space-between;
+         margin: 0px 5px;
+     }
+     .hrLine{
+         margin-top: 0px;
+     }
+     .download-Print{
+         display: flex;
+         flex-direction: row;
+         justify-content:space-between;
+         margin-top: 2px;
+         padding: 5px;
+     
+     }
+     
+     #download{
+         margin-right: 5px;
+         width:120px;
+         height: 40px;
+         background-color: rgb(26, 114, 4);
+         color: white;
+         border-radius: 10px;
+      
+     }
+     #print{
+         margin-left: 3px;
+         margin-right: 1px;
+         width:80px;
+         background-color: rgb(202, 22, 112);
+         color: white;
+         height: 40px;
+         border-radius: 10px;
+     }
+    
+}
+
+@media all and (max-width: 854px){
+    .mylinks{
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+        margin: 0px 5px;
+    } 
+}
+
+
+
+
+
+
+@media all and (max-width: 768px) {
+    .resumeContainer{
+        height: fit-content;
+         width: 90vw;
+         /* border: 2px solid green; */
+         background-color: gainsboro;
+         box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+         margin-top: 280px;
+         margin-right: 5vw;
+         margin-left: 5vw;
+         padding: 15px 10px;
+     
+     }
+     header{
+         text-align: center;
+     }
+     .mylinks{
+         display: flex;
+         flex-direction:row;
+         justify-content: space-between;
+         margin: 0px 5px;
+     }
+     .hrLine{
+         margin-top: 0px;
+     }
+     .download-Print{
+         display: flex;
+         flex-direction: row;
+         justify-content:space-between;
+         margin-top: 2px;
+         padding: 5px;
+     
+     }
+     
+     #download{
+         margin-right: 5px;
+         width:120px;
+         height: 40px;
+         background-color: rgb(26, 114, 4);
+         color: white;
+         border-radius: 10px;
+      
+     }
+     #print{
+         margin-left: 3px;
+         margin-right: 1px;
+         width:80px;
+         background-color: rgb(202, 22, 112);
+         color: white;
+         height: 40px;
+         border-radius: 10px;
+     }
+    
+}
+
+
+@media all and (max-width: 614px){
+    .mylinks{
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+        margin: 0px 5px;
+    } 
+}

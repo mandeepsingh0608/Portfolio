@@ -1,0 +1,380 @@
+.navContainer .Menubars{
+
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+    margin-top: -5px;
+    margin-bottom: 1px;
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 768px){
+    .navContainer .Menubars{
+     
+      display: inline-block;
+      flex-direction: column;
+      margin-left:10px ;
+    }
+
+
+
+    .navContainer{
+        position:absolute;
+        width: 100%;
+        height: fit-content;
+        
+        z-index: 10;
+       
+        
+        
+        
+        /* background-color: black; */
+        background-image: linear-gradient( rgba(32, 28, 29, 0.795), rgba(49, 47, 47, 0.336)), url(.././images/navbackground.jpg);
+        
+        background-position:center;
+        background-position-y: top;
+        background-repeat: no-repeat;
+        background-size:inherit;
+        /* overflow:visible; */
+     }
+
+     .navItemContainer{
+         margin-top: 3px;
+         /* border: 2px solid yellow; */
+     }
+     .navbar{
+        
+       display: none;
+         margin: -17px 10px;
+         
+     }
+      
+     #hidden{
+         
+        height: fit-content;
+        transition: all 2s ease-in-out;
+    }
+
+  #hidden .navbar ul li{
+      display: flex;
+      margin-left: -8px;
+  }
+
+
+
+     
+     
+     
+    
+     .navbar ul li{
+      
+        list-style: none;
+        display: none;
+      
+    }
+    
+    
+   
+
+    
+.profileImg{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 4px 4px; */
+    align-self: center;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    
+}
+.profileName{
+    
+    text-align: center;
+    margin-top: 5px;
+}
+.imgContainer{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  margin-top: 15px;
+  
+}
+
+
+
+
+
+
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin: 300px 20vw ;
+    scroll-behavior: auto;
+    
+    width: 60vw;
+    height: fit-content;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.background{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+.projectContainer{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+
+    flex-wrap:wrap;  
+    width: 65vw;
+    height: fit-content;
+    margin: 280px 8vw;
+    /* overflow: scroll; */
+    /* border: 2px solid black; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.card{
+    margin: 10px 10px;
+    width: 70vw;
+    height: fit-content;
+    color: black;
+    overflow: hidden;  
+}
+
+
+.card .content{
+    text-align: center;
+    color: black;
+    padding: 5px 8px;
+}
+
+
+@media all and (max-width: 768px){
+
+    .contactContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        /* border: 2px solid black; */
+        margin: 300px 2vw;
+        width: 75vw;
+        height: fit-content;
+        font-weight: bolder; 
+        padding: 2px;
+       overflow:scroll;
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    }
+    .gridContainer{
+        display: flex;
+        align-items:stretch;
+        flex-direction: column;
+        margin-left: 72px;
+        padding: 12px ;
+        font-weight: bolder;
+    }
+    .formContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        padding: 5px;
+        padding: 3px;
+       
+    }
+    
+    textarea{
+        padding: 10px;
+    }
+    
+    
+    .inputBox{
+        width: 70vw;
+    }
+
+}
+
+
+
+
+
+}
+
+
+
+@media all and (max-width:400px){
+    .navContainer .Menubars{
+     
+        display: flex;
+        flex-direction: column;
+        margin-left:10px ;
+      }
+
+    .navContainer{
+      
+       width:100vw;
+        height: fit-content;
+        
+        position: absolute;        
+        z-index: 10;
+        
+        
+        
+        background-image: linear-gradient( rgba(32, 28, 29, 0.795), rgba(49, 47, 47, 0.336)), url(.././images/navbackground.jpg);
+        
+        background-position:center;
+        background-position-y: top;
+        background-repeat: no-repeat;
+        background-size:unset;
+        /* overflow:visible; */
+     }
+
+
+     .navbar{
+        
+       display: none;
+         margin: -17px 10px;
+         
+     }
+      
+     #hidden{
+         
+        height: fit-content;
+        transition: all 1s linear ease-in-out;
+    }
+
+  #hidden .navbar ul li{
+      display: flex;
+  }
+
+
+
+     
+     
+     
+    
+     .navbar ul li{
+     
+        list-style: none;
+        display: none;
+      
+    }
+    
+    
+   
+
+    
+.profileImg{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 4px 4px; */
+    align-self: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    
+}
+.profileName{
+    
+    text-align: center;
+    margin-top: 5px;
+    
+}
+.profileName h3{
+    font-weight: bold;
+    font-size: medium;
+    
+}
+.profileName h4{
+    
+    font-size: medium;
+    
+}
+.imgContainer{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  margin-top: 12px;
+  
+}
+
+
+
+
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin: 50vh 15vw ;
+    scroll-behavior: auto;
+    
+    width: 60vw;
+    height: fit-content;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    
+}
+
+
+.linkStyle{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    /* border: 2px solid red; */
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+   
+   
+}
+
+    .projectContainer{
+        display: flex;
+        flex-direction:column;
+        justify-content: flex-start;
+        align-items: center;
+    
+        flex-wrap:wrap;  
+        width: fit-content;
+        height: fit-content;
+        margin: 50vh 35px;
+        /* overflow: scroll; */
+        /* border: 2px solid black; */
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    }
+    
+    .card{
+        margin: 10px 10px;
+        width: 70vw;
+        height: fit-content;
+        color: black;
+        overflow: hidden;  
+    }
+    
+    
+    .card .content{
+        text-align: center;
+        color: black;
+        padding: 5px 8px;
+    }
+
+
+
+}
+
